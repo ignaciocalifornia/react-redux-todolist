@@ -4,6 +4,7 @@
   "description": "redux-tutorial",
   "main": "redux.js",
   "scripts": {
+    "all": "npm run clean-install && npm run start-launch",
     "clean-install": "rm -rf node_modules/ && npm install",
     "start": "webpack-dev-server --progress --colors --port 8099",
     "launch": "open -a \"/Applications/Google Chrome.app\" 'http://localhost:8099/webpack-dev-server/'",
