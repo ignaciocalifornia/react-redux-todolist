@@ -1,0 +1,30 @@
+{
+  "name": "redux-tutorial",
+  "version": "1.0.0",
+  "description": "redux-tutorial",
+  "main": "redux.js",
+  "scripts": {
+    "clean-install": "rm -rf node_modules/ && npm install",
+    "start": "webpack-dev-server --progress --colors --port 8099",
+    "launch": "open -a \"/Applications/Google Chrome.app\" 'http://localhost:8099/webpack-dev-server/'",
+    "start-launch": "npm run launch && npm start",
+    "st": "npm run start-launch"
+  },
+  "author": "ignacio villar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.2.0",
+    "redux": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "html-webpack-plugin": "^2.7.2",
+    "webpack": "^1.12.12"
+  }
+}

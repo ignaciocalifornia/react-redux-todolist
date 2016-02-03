@@ -1,0 +1,4 @@
+{
+  //necessary to do perform the spread operator within objects. e.g.: {...props}
+  "plugins": ["transform-object-rest-spread"]
+}
